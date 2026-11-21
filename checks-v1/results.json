@@ -1,0 +1,515 @@
+{
+  "format": "sokoban-verification/1",
+  "node": "v24.22.1",
+  "practice": {
+    "scores": {
+      "score": 1000000,
+      "passed": 1,
+      "answered": 5,
+      "instances": 5,
+      "i001": 1000000,
+      "i002": 1000000,
+      "i003": 1000000,
+      "i004": 1000000,
+      "i005": 1000000
+    },
+    "checks": [
+      {
+        "key": "i001",
+        "group": "Instances",
+        "title": "Instance i001",
+        "points": 1000,
+        "earned": 1000,
+        "pass": true,
+        "detail": "solved in 13 pushes (P* 13)"
+      },
+      {
+        "key": "i002",
+        "group": "Instances",
+        "title": "Instance i002",
+        "points": 1000,
+        "earned": 1000,
+        "pass": true,
+        "detail": "solved in 16 pushes (P* 16)"
+      },
+      {
+        "key": "i003",
+        "group": "Instances",
+        "title": "Instance i003",
+        "points": 1000,
+        "earned": 1000,
+        "pass": true,
+        "detail": "solved in 29 pushes (P* 29)"
+      },
+      {
+        "key": "i004",
+        "group": "Instances",
+        "title": "Instance i004",
+        "points": 1000,
+        "earned": 1000,
+        "pass": true,
+        "detail": "solved in 47 pushes (P* 47)"
+      },
+      {
+        "key": "i005",
+        "group": "Instances",
+        "title": "Instance i005",
+        "points": 1000,
+        "earned": 1000,
+        "pass": true,
+        "detail": "solved in 60 pushes (P* 60)"
+      }
+    ]
+  },
+  "baseline": {
+    "scores": {
+      "score": 200000,
+      "passed": 1,
+      "answered": 5,
+      "instances": 5,
+      "i001": 1000000,
+      "i002": 0,
+      "i003": 0,
+      "i004": 0,
+      "i005": 0
+    },
+    "checks": [
+      {
+        "key": "i001",
+        "group": "Instances",
+        "title": "Instance i001",
+        "points": 1000,
+        "earned": 1000,
+        "pass": true,
+        "detail": "solved in 13 pushes (P* 13)"
+      },
+      {
+        "key": "i002",
+        "group": "Instances",
+        "title": "Instance i002",
+        "points": 1000,
+        "earned": 0,
+        "pass": true,
+        "detail": "the replay ends with a box off its goal, after 0 moves and 0 pushes"
+      },
+      {
+        "key": "i003",
+        "group": "Instances",
+        "title": "Instance i003",
+        "points": 1000,
+        "earned": 0,
+        "pass": true,
+        "detail": "the replay ends with a box off its goal, after 0 moves and 0 pushes"
+      },
+      {
+        "key": "i004",
+        "group": "Instances",
+        "title": "Instance i004",
+        "points": 1000,
+        "earned": 0,
+        "pass": true,
+        "detail": "the replay ends with a box off its goal, after 0 moves and 0 pushes"
+      },
+      {
+        "key": "i005",
+        "group": "Instances",
+        "title": "Instance i005",
+        "points": 1000,
+        "earned": 0,
+        "pass": true,
+        "detail": "the replay ends with a box off its goal, after 0 moves and 0 pushes"
+      }
+    ]
+  },
+  "determinism": {
+    "byte_identical": true,
+    "outputs": {
+      "i001": {
+        "sha256": "a8c9a2468a6b2f2eb09794ae06b1002c4b4e598ca6f63d56f1a82a6b77b5b57c",
+        "bytes": 31
+      },
+      "i002": {
+        "sha256": "741d6006e584d38c0a4089d7718dddc61f38ab9675570d0e3a7da36e277c7ec9",
+        "bytes": 81
+      },
+      "i003": {
+        "sha256": "1cf704a91897492d91b96816586734e010eecd51fb578ac9b057baf23973948d",
+        "bytes": 105
+      },
+      "i004": {
+        "sha256": "4561edc975415416d7d0c001b51361d12e975662f5eaff37a5bb9e6c2a952c90",
+        "bytes": 213
+      },
+      "i005": {
+        "sha256": "5051625acea67f01f208bd25c83c527fb05dd6fd4378c8eef88f1225b4212773",
+        "bytes": 300
+      }
+    }
+  },
+  "synthetic": {
+    "cases": 16,
+    "all_push_optimal": true,
+    "results": [
+      {
+        "id": "t000",
+        "boxes": 3,
+        "optimal_pushes": 7,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 7 pushes (P* 7)"
+        }
+      },
+      {
+        "id": "t001",
+        "boxes": 4,
+        "optimal_pushes": 9,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 9 pushes (P* 9)"
+        }
+      },
+      {
+        "id": "t002",
+        "boxes": 3,
+        "optimal_pushes": 9,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 9 pushes (P* 9)"
+        }
+      },
+      {
+        "id": "t003",
+        "boxes": 4,
+        "optimal_pushes": 9,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 9 pushes (P* 9)"
+        }
+      },
+      {
+        "id": "t004",
+        "boxes": 3,
+        "optimal_pushes": 7,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 7 pushes (P* 7)"
+        }
+      },
+      {
+        "id": "t005",
+        "boxes": 4,
+        "optimal_pushes": 9,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 9 pushes (P* 9)"
+        }
+      },
+      {
+        "id": "t006",
+        "boxes": 3,
+        "optimal_pushes": 6,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 6 pushes (P* 6)"
+        }
+      },
+      {
+        "id": "t007",
+        "boxes": 4,
+        "optimal_pushes": 5,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 5 pushes (P* 5)"
+        }
+      },
+      {
+        "id": "t008",
+        "boxes": 3,
+        "optimal_pushes": 7,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 7 pushes (P* 7)"
+        }
+      },
+      {
+        "id": "t009",
+        "boxes": 4,
+        "optimal_pushes": 4,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 4 pushes (P* 4)"
+        }
+      },
+      {
+        "id": "t010",
+        "boxes": 3,
+        "optimal_pushes": 7,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 7 pushes (P* 7)"
+        }
+      },
+      {
+        "id": "t011",
+        "boxes": 4,
+        "optimal_pushes": 7,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 7 pushes (P* 7)"
+        }
+      },
+      {
+        "id": "t012",
+        "boxes": 3,
+        "optimal_pushes": 6,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 6 pushes (P* 6)"
+        }
+      },
+      {
+        "id": "t013",
+        "boxes": 4,
+        "optimal_pushes": 4,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 4 pushes (P* 4)"
+        }
+      },
+      {
+        "id": "t014",
+        "boxes": 3,
+        "optimal_pushes": 9,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 9 pushes (P* 9)"
+        }
+      },
+      {
+        "id": "t015",
+        "boxes": 4,
+        "optimal_pushes": 5,
+        "verdict": {
+          "points": 1000,
+          "valid": true,
+          "detail": "solved in 5 pushes (P* 5)"
+        }
+      }
+    ],
+    "forced_fallback": {
+      "all_solved": true,
+      "results": [
+        {
+          "id": "t000",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 7 pushes (P* 7)"
+          }
+        },
+        {
+          "id": "t001",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 9 pushes (P* 9)"
+          }
+        },
+        {
+          "id": "t002",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 9 pushes (P* 9)"
+          }
+        },
+        {
+          "id": "t003",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 9 pushes (P* 9)"
+          }
+        },
+        {
+          "id": "t004",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 7 pushes (P* 7)"
+          }
+        },
+        {
+          "id": "t005",
+          "verdict": {
+            "points": 409.09090909090907,
+            "valid": true,
+            "detail": "solved in 11 pushes (P* 9)"
+          }
+        },
+        {
+          "id": "t006",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 6 pushes (P* 6)"
+          }
+        },
+        {
+          "id": "t007",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 5 pushes (P* 5)"
+          }
+        },
+        {
+          "id": "t008",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 7 pushes (P* 7)"
+          }
+        },
+        {
+          "id": "t009",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 4 pushes (P* 4)"
+          }
+        },
+        {
+          "id": "t010",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 7 pushes (P* 7)"
+          }
+        },
+        {
+          "id": "t011",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 7 pushes (P* 7)"
+          }
+        },
+        {
+          "id": "t012",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 6 pushes (P* 6)"
+          }
+        },
+        {
+          "id": "t013",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 4 pushes (P* 4)"
+          }
+        },
+        {
+          "id": "t014",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 9 pushes (P* 9)"
+          }
+        },
+        {
+          "id": "t015",
+          "verdict": {
+            "points": 1000,
+            "valid": true,
+            "detail": "solved in 5 pushes (P* 5)"
+          }
+        }
+      ]
+    }
+  },
+  "runs": {
+    "solver_first": {
+      "elapsed_ms": 172.544,
+      "log": [
+        "{\"room\":68,\"pushes\":13,\"expanded\":15,\"generated\":56,\"weight\":1}",
+        "{\"room\":69,\"pushes\":16,\"expanded\":23,\"generated\":151,\"weight\":1}",
+        "{\"room\":67,\"pushes\":14,\"expanded\":14,\"generated\":68,\"weight\":1}",
+        "{\"room\":69,\"pushes\":15,\"expanded\":15,\"generated\":47,\"weight\":1}",
+        "{\"room\":122,\"pushes\":17,\"expanded\":43,\"generated\":165,\"weight\":1}",
+        "{\"room\":124,\"pushes\":15,\"expanded\":60,\"generated\":188,\"weight\":1}",
+        "{\"room\":128,\"pushes\":15,\"expanded\":24,\"generated\":74,\"weight\":1}",
+        "{\"room\":123,\"pushes\":14,\"expanded\":31,\"generated\":125,\"weight\":1}",
+        "{\"room\":125,\"pushes\":16,\"expanded\":16,\"generated\":78,\"weight\":1}",
+        "{\"room\":129,\"pushes\":16,\"expanded\":20,\"generated\":106,\"weight\":1}",
+        "{\"room\":132,\"pushes\":14,\"expanded\":28,\"generated\":116,\"weight\":1}"
+      ]
+    },
+    "solver_second": {
+      "elapsed_ms": 204.255,
+      "log": [
+        "{\"room\":68,\"pushes\":13,\"expanded\":15,\"generated\":56,\"weight\":1}",
+        "{\"room\":69,\"pushes\":16,\"expanded\":23,\"generated\":151,\"weight\":1}",
+        "{\"room\":67,\"pushes\":14,\"expanded\":14,\"generated\":68,\"weight\":1}",
+        "{\"room\":69,\"pushes\":15,\"expanded\":15,\"generated\":47,\"weight\":1}",
+        "{\"room\":122,\"pushes\":17,\"expanded\":43,\"generated\":165,\"weight\":1}",
+        "{\"room\":124,\"pushes\":15,\"expanded\":60,\"generated\":188,\"weight\":1}",
+        "{\"room\":128,\"pushes\":15,\"expanded\":24,\"generated\":74,\"weight\":1}",
+        "{\"room\":123,\"pushes\":14,\"expanded\":31,\"generated\":125,\"weight\":1}",
+        "{\"room\":125,\"pushes\":16,\"expanded\":16,\"generated\":78,\"weight\":1}",
+        "{\"room\":129,\"pushes\":16,\"expanded\":20,\"generated\":106,\"weight\":1}",
+        "{\"room\":132,\"pushes\":14,\"expanded\":28,\"generated\":116,\"weight\":1}"
+      ]
+    },
+    "baseline": {
+      "elapsed_ms": 5510.213,
+      "log": [
+        "(node:9988) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/hatch/workspace/makefun/sokoban-solver-01-run-20261121-kit-xingchi/sokoban-solver-01-run-20261121-kit/baselines/plain-astar/main.ts is not specified and it doesn't parse as CommonJS.",
+        "Reparsing as ES module because module syntax was detected. This incurs a performance overhead.",
+        "To eliminate this warning, add \"type\": \"module\" to /home/hatch/workspace/makefun/package.json.",
+        "(Use `node --trace-warnings ...` to show where the warning was created)"
+      ]
+    }
+  },
+  "compliance": {
+    "standard_library_only": true,
+    "network_apis_absent": true,
+    "clock_reads_absent": true,
+    "random_reads_absent": true,
+    "environment_reads": [
+      "MAKEFUN_INPUT_DIR",
+      "MAKEFUN_OUTPUT_DIR"
+    ],
+    "runtime_clock_and_network_guard_passed": true,
+    "per_run_timeout_ms": 60000,
+    "heap_limit_mib": 384,
+    "repository_limit_bytes": 1048576
+  },
+  "size": {
+    "bytes": 56931,
+    "snapshot_bytes": 60196,
+    "files": 85
+  },
+  "unconfirmed": [
+    "Unreleased scored set and official Node 22 sandbox have not been tested.",
+    "Weighted fallback is bounded and cannot guarantee completion of every possible room.",
+    "The 60-second worst-case runtime and 512-MB total RSS limit are not certified by practice runs."
+  ]
+}

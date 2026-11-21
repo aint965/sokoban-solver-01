@@ -1,0 +1,162 @@
+[
+  {
+    "id": "t000",
+    "boxes": 3,
+    "optimal_pushes": 7,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 7 pushes (P* 7)"
+    }
+  },
+  {
+    "id": "t001",
+    "boxes": 4,
+    "optimal_pushes": 9,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 9 pushes (P* 9)"
+    }
+  },
+  {
+    "id": "t002",
+    "boxes": 3,
+    "optimal_pushes": 9,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 9 pushes (P* 9)"
+    }
+  },
+  {
+    "id": "t003",
+    "boxes": 4,
+    "optimal_pushes": 9,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 9 pushes (P* 9)"
+    }
+  },
+  {
+    "id": "t004",
+    "boxes": 3,
+    "optimal_pushes": 7,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 7 pushes (P* 7)"
+    }
+  },
+  {
+    "id": "t005",
+    "boxes": 4,
+    "optimal_pushes": 9,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 9 pushes (P* 9)"
+    }
+  },
+  {
+    "id": "t006",
+    "boxes": 3,
+    "optimal_pushes": 6,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 6 pushes (P* 6)"
+    }
+  },
+  {
+    "id": "t007",
+    "boxes": 4,
+    "optimal_pushes": 5,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 5 pushes (P* 5)"
+    }
+  },
+  {
+    "id": "t008",
+    "boxes": 3,
+    "optimal_pushes": 7,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 7 pushes (P* 7)"
+    }
+  },
+  {
+    "id": "t009",
+    "boxes": 4,
+    "optimal_pushes": 4,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 4 pushes (P* 4)"
+    }
+  },
+  {
+    "id": "t010",
+    "boxes": 3,
+    "optimal_pushes": 7,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 7 pushes (P* 7)"
+    }
+  },
+  {
+    "id": "t011",
+    "boxes": 4,
+    "optimal_pushes": 7,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 7 pushes (P* 7)"
+    }
+  },
+  {
+    "id": "t012",
+    "boxes": 3,
+    "optimal_pushes": 6,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 6 pushes (P* 6)"
+    }
+  },
+  {
+    "id": "t013",
+    "boxes": 4,
+    "optimal_pushes": 4,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 4 pushes (P* 4)"
+    }
+  },
+  {
+    "id": "t014",
+    "boxes": 3,
+    "optimal_pushes": 9,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 9 pushes (P* 9)"
+    }
+  },
+  {
+    "id": "t015",
+    "boxes": 4,
+    "optimal_pushes": 5,
+    "verdict": {
+      "points": 1000,
+      "valid": true,
+      "detail": "solved in 5 pushes (P* 5)"
+    }
+  }
+]
